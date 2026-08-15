@@ -7,8 +7,8 @@ body {
 
 header {
     text-align: center;
-    padding: 60px 20px;
-    background-color: #1e1e1e;
+    padding: 100px 20px;
+    background: linear-gradient(180deg, #1f1f1f 0%, #121212 100%);
 }
 
 h1 {
@@ -36,11 +36,12 @@ hr {
     background: #333;
 }
 nav {
-    background-color: #000000;
+    background-color: #0d0d0d;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
-    padding: 18px;
+    padding: 18px 0;
     border-bottom: 2px solid #00d4ff;
 }
 
@@ -49,6 +50,7 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
